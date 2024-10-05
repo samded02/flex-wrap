@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-wrap</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: bold;
+            background-color: rgb(152, 175, 190);
+        }
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:center;
+            /* space-around, space-between, space-evenly, start, end */
+        }
+        .box{
+            height: 225px;
+            width: 300px;
+            margin: 5px;
+            padding: 10px;
+            font-weight: bold;
+            font-size: 15.5px;
+            background-color: rgb(113, 136, 199);
+        }
+        .container2{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:center;
+        }
+        .img1{
+            height: 225px;
+            width: 300px;
+            margin: 5px;
+            padding: 10px;
+            background: url(img/dagestan.jpg) center / cover;
+            font-weight: bold;
+            font-size: 15.5px;
+        }
+        .img2{
+            height: 225px;
+            width: 300px;
+            margin: 5px;
+            padding: 10px;
+            background: url(img/chechnya.png) center / cover;
+            font-weight: bold;
+            font-size: 15.5px;
+        }
+        .img3{
+            height: 225px;
+            width: 300px;
+            margin: 5px;
+            background: url(img/osetiya.webp) center / cover;
+            padding: 10px;
+            font-weight: bold;
+            font-size: 15.5px;
+        }
+        .img4{
+            height: 225px;
+            width: 300px;
+            margin: 5px;
+            padding: 10px;
+            background: url(img/Cherkesia.jpg) center / cover;
+            font-weight: bold;
+            font-size: 15.5px;
+        }
+        .header{
+            width: 100%;
+            height: 50px;
+            background-color: rgb(29, 55, 112);
+            text-align: center;
+            line-height: 50px;
+            font-size: 20px;
+            position: sticky;
+            position: fixed;
+            top: 0;
+        }
+        .content1{
+            margin-top: 70px;
+            margin-bottom: 31px;
+        }
+        .footer{
+            line-height: 30px;
+            text-align: center;
+            background-color: rgb(29, 55, 112);
+            position: sticky;
+        }
+        h1{
+            background-color: rgb(113, 136, 199);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        Kavakaz Respublikalar
+    </div>
+<div class="content1">
+    <div class="container">
+        <div class="img1"></div>
+        <div class="img2"></div>
+        <div class="img3"></div>
+        <div class="img4"></div>
+    </div>
+    <div class="container2">
+        <div class="box">
+            <h1>Dağıstan</h1>Dağıstan və ya Dağıstan Respublikası Rusiya Federasiyasının subyektidir, onun tərkibində olan respublikadır. Şimali Qafqaz Federal Dairəsinin bir hissəsidir və Şimali Qafqaz İqtisadi Rayonunun bir hissəsidir. 1921-ci il yanvarın 19-da RSFSR-in tərkibində muxtar respublika kimi yaradılmışdır. Paytaxtı Mahaçqala şəhəridir. </div>
+        <div class="box">
+            <h1>Çeçenistan</h1>Çeçenistan, rəsmi adı Çeçenistan Respublikasıdır, Rusiya Federasiyasının subyektidir, onun tərkibində respublikadır. Şimali Qafqazın şərqində yerləşir. Sahəsi - 16,171 km². Şimaldan cənuba təxminən 170 km, qərbdən şərqə - təxminən 100 km uzanır.</div>
+        <div class="box">
+            <h1>Şimali Osetiya</h1>Şimali Osetiya, rəsmi adı ilə Şimali Osetiya-Alaniya Respublikası, Rusiya Federasiyasının subyektidir, onun tərkibində olan respublikadır. Şimali Qafqaz Federal Dairəsinin bir hissəsidir və Şimali Qafqaz İqtisadi Rayonunun bir hissəsidir. Paytaxtı Vladiqafqaz şəhəridir.</div>
+        <div class="box">
+            <h1>Qaraçay-Çərkəz Respublikası</h1>Qaraçay-Çərkəz və ya Qaraçay-Çərkəz Respublikası Rusiya Federasiyasının subyektidir, onun tərkibində olan respublikadır. Şimali Qafqaz Federal Dairəsinin bir hissəsidir və Şimali Qafqaz İqtisadi Rayonunun bir hissəsidir. Paytaxtı Çerkessk şəhəridir.</div>
+    </div>
+</div>
+<div class="footer">Created by Ismail &copy;2024</div>
+</body>
+</html>
